@@ -17,7 +17,6 @@
     </style>
 
     <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
-        <item name="android:background">@color/black_overlay</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -28,5 +27,272 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+
+
+    <!--Style declaration for role selection buttons-->
+    <style name="RoleSelectionButtonStyle" parent="android:style/Widget.Button">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:paddingLeft">20dp</item>
+
+    </style>
+
+    <style name="HorizontalLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.1dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="VerticleLine">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorGrey</item>
+    </style>
+
+    <style name="ScrollViewStyle" parent="android:style/Widget.ScrollView">
+        <item name="android:scrollbars">none</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+
+    <style name="TransperentEdittext" parent="android:style/Widget.EditText">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:background">@color/colorTransperent</item>
+        <item name="android:textColorHint">@color/colorGreyText</item>
+        <item name="android:ems">13</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="DrawableTransperentEdittext" parent="android:style/Widget.EditText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:background">@color/colorTransperent</item>
+        <item name="android:textColorHint">@color/colorGreyText</item>
+        <item name="android:ems">13</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="DrawableTransperentLeftAlignEdittext" parent="android:style/Widget.EditText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:background">@color/colorTransperent</item>
+        <item name="android:textColorHint">@color/colorGreyText</item>
+        <item name="android:ems">13</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="BlackText" parent="android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorBlackText</item>
+    </style>
+    <style name="GreyText" parent="android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorGreyText</item>
+    </style>
+
+    <style name="RedText" parent="android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorRed</item>
+    </style>
+
+    <style name="BlueText" parent="android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorUrl</item>
+    </style>
+
+    <style name="GreenText" parent="android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="SmallBlackText" parent="@style/BlackText">
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <style name="MediumBlackText" parent="@style/BlackText">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+
+    <style name="LargeBlackText" parent="@style/BlackText">
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="ExtraLargeBlackText" parent="@style/BlackText">
+        <item name="android:textSize">@dimen/extra_large_text_size</item>
+    </style>
+
+    <style name="SmallRedText" parent="@style/RedText">
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <style name="MediumRedText" parent="@style/RedText">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+
+    <style name="LargeRedText" parent="@style/RedText">
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="SmallBlueText" parent="@style/BlueText">
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <style name="MediumBlueText" parent="@style/BlueText">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+
+    <style name="LargeBlueText" parent="@style/BlueText">
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="SmallGreyText" parent="@style/GreyText">
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <style name="MediumGreyText" parent="@style/GreyText">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+
+    <style name="LargeGreyText" parent="@style/GreyText">
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="ExtraLargeGreyText" parent="@style/GreyText">
+        <item name="android:textSize">@dimen/extra_large_text_size</item>
+    </style>
+
+    <style name="WhiteText" parent="android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="SmallWhiteText" parent="@style/WhiteText">
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <style name="MediumWhiteText" parent="@style/WhiteText">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+
+    <style name="LargeWhiteText" parent="@style/WhiteText">
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="MediumGreenText" parent="@style/GreenText">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+
+    <style name="WhiteButtonStyle" parent="android:style/Widget.Button">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:gravity">center|clip_horizontal</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:padding">7dp</item>
+    </style>
+
+    <style name="GreenButtonStyle" parent="android:style/Widget.Button">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center|clip_horizontal</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="RedButtonStyle" parent="android:style/Widget.Button">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center|clip_horizontal</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:padding">7dp</item>
+    </style>
+
+    <style name="CustomDialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="DropDownEditText" parent="@style/TransperentEdittext">
+        <item name="android:textSize">14sp</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/colorGreyText</item>
+    </style>
+
+    <style name="ListViewStyle" parent="android:style/Widget.ListView">
+        <item name="android:cacheColorHint">@color/colorTransperent</item>
+        <item name="android:divider">@color/colorLine</item>
+        <item name="android:dividerHeight">0.5dp</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:listSelector">@color/colorTransperent</item>
+    </style>
+
+    <style name="Base.Widget.Design.TabLayout" parent="android:Widget">
+        <item name="tabIndicatorColor">@color/color_profile_tab_unselected</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabSelectedTextColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/tab_text_size</item>
+    </style>
+
+    <style name="GreyEdittext" parent="android:style/Widget.EditText">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+        <item name="android:ems">13</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="WhiteEdittext" parent="android:style/Widget.EditText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textColorHint">@color/colorLine</item>
+        <item name="android:ems">13</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:gravity">left</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="DropDownGreyEditText" parent="@style/GreyEdittext">
+        <item name="android:textSize">14sp</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="RedBadgeStyle">
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:layout_gravity">top|right</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
 
 </resources>

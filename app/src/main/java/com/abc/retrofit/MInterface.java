@@ -3,8 +3,9 @@ package com.abc.retrofit;
 import com.abc.pojo.Login;
 
 import java.util.List;
-import okhttp3.logging.HttpLoggingInterceptor;
+
 import okhttp3.OkHttpClient;
+import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
