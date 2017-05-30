@@ -2,7 +2,42 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="nav_header_vertical_spacing">16dp</dimen>
-    <dimen name="nav_header_height">160dp</dimen>
-    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="small_text_size">13sp</dimen>
+    <dimen name="medium_text_size">16sp</dimen>
+    <dimen name="large_text_size">18sp</dimen>
+    <dimen name="extra_large_text_size">25sp</dimen>
+    <dimen name="edittext_corners">30dp</dimen>
+    <dimen name="bottom_menu_height">45dp</dimen>
+    <dimen name="profile_pic_width">85dp</dimen>
+    <dimen name="profile_pic_height">90dp</dimen>
+
+
+    <!--skdjfnskljdfgv-->
+
+    <dimen name="sidemenu_profile_pic_width">70dp</dimen>
+    <dimen name="sidemenu_profile_pic_height">70dp</dimen>
+    <dimen name="width_profile_white_line">50dp</dimen>
+    <dimen name="height_profile_white_line">1dp</dimen>
+    <dimen name="tv_profile_margin_top">10dp</dimen>
+    <dimen name="tv_profile_margin_bottom">5dp</dimen>
+    <dimen name="tv_side_margin_profile">15dp</dimen>
+    <dimen name="margin_profile_layout">5dp</dimen>
+    <dimen name="profile_icon_margin">40dp</dimen>
+    <dimen name="margin_profile_message_contact">5dp</dimen>
+    <dimen name="profile_line_margin">50dp</dimen>
+    <dimen name="legends_pic_size">60dp</dimen>
+    <dimen name="legends_detail_pic_size">90dp</dimen>
+    <dimen name="timeline_profile_pic_width">70dp</dimen>
+    <dimen name="timeline_profile_pic_height">70dp</dimen>
+    <dimen name="timeline_post_height">120dp</dimen>
+    <dimen name="profile_bottom_margin">40dp</dimen>
+    <dimen name="tab_text_size">12dp</dimen>
+    <dimen name="flag_width">70dp</dimen>
+    <dimen name="message_profile_size">40dp</dimen>
+    <dimen name="product_detail_length">120dp</dimen>
+    <dimen name="profile_size">80dp</dimen>
+    <dimen name="profile_margin_align_with_line">30dp</dimen>
+    <dimen name="event_detail_length">200dp</dimen>
+
 </resources>
