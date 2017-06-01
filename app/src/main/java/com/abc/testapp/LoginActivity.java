@@ -28,6 +28,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.abc.pojo.Login;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -149,7 +151,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
      * errors are presented and no actual login attempt is made.
      */
     private void attemptLogin() {
-
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
 
     }
 
